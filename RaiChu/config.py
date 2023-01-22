@@ -9,8 +9,8 @@ if os.path.exists("local.env"):
 
 load_dotenv()
 admins = {}
-SESSION_NAME = getenv("SESSION_NAME", "")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+SESSION_NAME = getenv("SESSION_NAME", "Rumiko")
+BOT_TOKEN = getenv("BOT_TOKEN", "5862886147:AAF7INyrdbnesEcXtjn7AWhK02eoTtgJF84")
 BOT_NAME = getenv("BOT_NAME", "Osana Najimi")
 API_ID = int(getenv("API_ID", "21927988"))
 API_HASH = getenv("API_HASH", "e18f720acdff1e5b0ec80616aecd8a5a)
