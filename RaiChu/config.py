@@ -9,7 +9,7 @@ if os.path.exists("local.env"):
 
 load_dotenv()
 admins = {}
-SESSION_NAME = getenv("SESSION_NAME", "Rumiko")
+SESSION_NAME = getenv("SESSION_NAME", "BQB4zr4dUyDCBXWKOFInGKa0QaEcPNm52hTN3YP9Uoa22g3qj3ht5R8TK___NlZ7WtS43PyFPp3AqermGEPZoMPI5Y8giJVeJrJMp-3QjjrYHshkvsWaF9cB0RAm2mBOU0PKOmJy5fxgklIJXbXFVwOYV5mJC9dXYQNA_gwCG5VwrfeLm5-Db5N2bL1fZUTJfUstWoNeFobuYHv0leetgGZ5npNALT-4Tp3CGPJ86FRDZtCNz7_OLvBCC35wrUw_JaupxlnmplakAu4ioQ-Zzj3Qo_2dRYeZQ-UjLapyYEsdz0pjDy63GBtY4UNOC2mo019bJJksr5cvoxbiDnTdqpTvAAAAAVZcvoYA")
 BOT_TOKEN = getenv("BOT_TOKEN", "5862886147:AAF7INyrdbnesEcXtjn7AWhK02eoTtgJF84")
 BOT_NAME = getenv("BOT_NAME", "Osana Najimi")
 API_ID = int(getenv("API_ID", "21927988"))
